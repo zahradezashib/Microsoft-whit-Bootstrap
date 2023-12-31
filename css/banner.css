@@ -1,0 +1,50 @@
+/*banner & Businness*/
+
+main>div.banner{
+    position: relative;
+    top:50px;
+    width: 75%;
+    margin: 0 auto;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-image:url(../pictures/banner.jfif);
+}
+
+main>div.banner>div.banner1{
+    position: relative;
+    vertical-align: top;
+    top: 20px;
+    width:45%;
+    height:250px;
+    text-align:left;
+}
+main>div.banner>div.banner1>a:nth-of-type(2):hover{
+    border-bottom:2px solid black;
+}
+
+
+main>div.banner2{
+    position: relative;
+    top:50px;
+    width:90%;
+    margin: 0 auto;
+    height:250px;
+    background-repeat: no-repeat;
+}
+main>div.banner2>img{
+    width:100%;
+    height: inherit;
+}
+main>div.banner2>div.banner2>a:nth-of-type(2):hover{
+    border-bottom:2px solid black;
+}
+
+
+main>div.bussiness{
+    position:relative;
+    top:135px;
+    display:inline-block;
+    width: 100%;
+    line-height: 35px;
+    height: 35px;
+}

@@ -1,0 +1,62 @@
+/*Back to top*/
+main>footer>div.back{
+height: 60px;
+}
+main>footer>div.back>div{
+    margin-top: 10px;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    margin-right: 5%;
+    justify-content: end;
+    background-color: #d9d9d9;
+}
+main>footer>div.back>div>a{
+   margin-top:5px;
+   margin-right:20px;
+}
+main>footer>div.back>div:hover{
+    background-color: white;
+    box-shadow:0px 1px 5px gray;
+}
+
+/*Resource*/
+main>footer>div.resource{
+    background-color: #f2f2f2;
+}
+main>footer>div.resource>ul>li>a{
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+}
+main>footer>div.resource>ul>li>a:hover{
+    border-bottom: 1px solid black;
+}
+
+
+/*locale Link*/
+main>footer>div.localeLink{
+    background-color: #f2f2f2;
+}
+main>footer>div.localeLink>ul>li{
+    margin: 2px 8px;
+    font-size: 13px;
+}
+main>footer>div.localeLink>ul>li>a{
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+}
+main>footer>div.localeLink>ul>li>a:hover{
+    border-bottom: 1px solid black;
+}
+main>footer>div.localeLink>a{
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+}
+main>footer>div.localeLink>a:hover{
+    border-bottom: 1px solid black;
+}

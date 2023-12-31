@@ -1,0 +1,22 @@
+.div.carousel{
+    max-width: 10%;
+}
+main>div.carousel>svg{
+    vertical-align: top;
+    margin: 10px 10px;
+    left: 42%;
+    position: relative;
+    transform: scale(1.5);
+}
+main>div.shop>ul>li{
+    margin:20px 0px;
+}
+main>div.shop>ul>li>img{
+    margin: 0 auto;
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+main>div>div.card>div>a:hover{
+    border-bottom: 2px solid #5d0f2f;
+}
